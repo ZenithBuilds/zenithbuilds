@@ -1,5 +1,4 @@
-import { createApp } from 'vue';
-import App from './App.vue';
+import { createApp } from 'vue/dist/vue.esm-bundler';
 import { createRouter, createWebHistory } from 'vue-router';
 
 import Home from './pages/Home.js';
@@ -13,8 +12,9 @@ const router = createRouter({
   routes
 });
 
-const app = createApp(App);
 
+const app = createApp({
+  })
 app.use(router);
 
 app.mount('#app');
