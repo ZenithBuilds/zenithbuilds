@@ -1,0 +1,26 @@
+.loading-container {
+    background-color: transparent;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.loadingtext {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    display: block;
+    position: relative;
+    margin: 0;
+    height: auto;
+}
+
+.loading {
+    width: 20rem;
+}
+
+.loadingtext-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

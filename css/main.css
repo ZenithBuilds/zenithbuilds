@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-color: rgb(13, 14, 19);
+}
+
+header {
+    background-color: rgb(28, 34, 63);
+    align-items: center;
+    display: flex;
+    height: 11vh;
+}
+
+.logo {
+    height: 7vh;
+    margin-left: 0.5rem;
+}
